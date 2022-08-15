@@ -192,6 +192,17 @@ class DrawerDemo extends StatelessWidget {
                   ),
                 ),
               ),
+              ListTile(
+                leading: Icon(Icons.circle_notifications,
+                    size: 30, color: Colors.white),
+                title: Text(
+                  "About App",
+                  style: TextStyle(
+                    color: Colors.white,
+                    fontWeight: FontWeight.w400,
+                  ),
+                ),
+              ),
             ],
           ),
         ),
